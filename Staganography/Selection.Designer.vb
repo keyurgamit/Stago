@@ -44,7 +44,7 @@ Partial Class Selection
         Me.btnAudio.Location = New System.Drawing.Point(133, 201)
         Me.btnAudio.Name = "btnAudio"
         Me.btnAudio.Size = New System.Drawing.Size(75, 23)
-        Me.btnAudio.TabIndex = 0
+        Me.btnAudio.TabIndex = 1
         Me.btnAudio.Text = "Audio"
         Me.btnAudio.Theme = MetroFramework.MetroThemeStyle.Dark
         Me.btnAudio.UseSelectable = True
@@ -54,7 +54,7 @@ Partial Class Selection
         Me.btnVideo.Location = New System.Drawing.Point(133, 249)
         Me.btnVideo.Name = "btnVideo"
         Me.btnVideo.Size = New System.Drawing.Size(75, 23)
-        Me.btnVideo.TabIndex = 0
+        Me.btnVideo.TabIndex = 2
         Me.btnVideo.Text = "Video"
         Me.btnVideo.Theme = MetroFramework.MetroThemeStyle.Dark
         Me.btnVideo.UseSelectable = True
@@ -64,7 +64,7 @@ Partial Class Selection
         Me.btnText.Location = New System.Drawing.Point(133, 298)
         Me.btnText.Name = "btnText"
         Me.btnText.Size = New System.Drawing.Size(75, 23)
-        Me.btnText.TabIndex = 0
+        Me.btnText.TabIndex = 3
         Me.btnText.Text = "Text"
         Me.btnText.Theme = MetroFramework.MetroThemeStyle.Dark
         Me.btnText.UseSelectable = True

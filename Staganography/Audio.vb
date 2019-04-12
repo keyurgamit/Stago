@@ -13,7 +13,9 @@ Public Class Audio
     End Sub
 
     Private Sub open_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles open.FileOk
-
+        pboxImage.Image = My.Resources.Resource.audioclip
+        audioBuffer = New System.IO.FileInfo(open.FileName)
+        ResizeFileName(open.FileName, audioBuffer.Name)
     End Sub
 
     Private Sub ResizeFileName(LongFileName As String, ShortFileName As String)
@@ -154,6 +156,8 @@ Public Class Audio
                     txtRetrivedText.Text = "The Audio does not contain any text"
                 End If
 
+            Else
+                MsgBox("Please Select Method to Encrypt or Decrypt.!", MsgBoxStyle.Critical, "Error")
             End If
 
         End If

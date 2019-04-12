@@ -200,6 +200,7 @@ Partial Class Image
         Me.txtRetrivedText.Lines = New String(-1) {}
         Me.txtRetrivedText.Location = New System.Drawing.Point(271, 81)
         Me.txtRetrivedText.MaxLength = 32767
+        Me.txtRetrivedText.Multiline = True
         Me.txtRetrivedText.Name = "txtRetrivedText"
         Me.txtRetrivedText.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtRetrivedText.ScrollBars = System.Windows.Forms.ScrollBars.None
@@ -207,6 +208,7 @@ Partial Class Image
         Me.txtRetrivedText.SelectionLength = 0
         Me.txtRetrivedText.SelectionStart = 0
         Me.txtRetrivedText.ShortcutsEnabled = True
+        Me.txtRetrivedText.ShowClearButton = True
         Me.txtRetrivedText.Size = New System.Drawing.Size(214, 240)
         Me.txtRetrivedText.TabIndex = 0
         Me.txtRetrivedText.Theme = MetroFramework.MetroThemeStyle.Dark
@@ -231,6 +233,7 @@ Partial Class Image
         Me.txtPlainText.Lines = New String(-1) {}
         Me.txtPlainText.Location = New System.Drawing.Point(20, 81)
         Me.txtPlainText.MaxLength = 32767
+        Me.txtPlainText.Multiline = True
         Me.txtPlainText.Name = "txtPlainText"
         Me.txtPlainText.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtPlainText.ScrollBars = System.Windows.Forms.ScrollBars.None
@@ -238,6 +241,7 @@ Partial Class Image
         Me.txtPlainText.SelectionLength = 0
         Me.txtPlainText.SelectionStart = 0
         Me.txtPlainText.ShortcutsEnabled = True
+        Me.txtPlainText.ShowClearButton = True
         Me.txtPlainText.Size = New System.Drawing.Size(214, 240)
         Me.txtPlainText.TabIndex = 0
         Me.txtPlainText.Theme = MetroFramework.MetroThemeStyle.Dark

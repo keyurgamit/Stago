@@ -108,6 +108,8 @@ Public Class Image
                 Dim NewFileName As String = build.FileName
                 My.Computer.FileSystem.WriteAllBytes(NewFileName, PicAndText, False)
 
+                MsgBox("Encryption Process done Successfully", MsgBoxStyle.MsgBoxRight, "Error")
+
             ElseIf rbtDecrypt.Checked Then
                 txtRetrivedText.Clear()
                 Dim OutterSearch, InnerSearch, StopSearch As Boolean
@@ -149,11 +151,16 @@ Public Class Image
                         txtRetrivedText.AppendText(ChrW(CInt(PicByteArray(leftCounter))))
                         leftCounter += 1
                     Loop
+                    MsgBox("Decryption Process done Successfully", MsgBoxStyle.MsgBoxRight, "Error")
                 Else
                     txtRetrivedText.Text = "The Picture does not contain any text"
                 End If
 
+            Else
+                MsgBox("Please Select Method to Encrypt or Decrypt.!", MsgBoxStyle.Critical, "Error")
             End If
         End If
+
+
     End Sub
 End Class

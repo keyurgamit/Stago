@@ -99,7 +99,7 @@ Partial Class Signup
         Me.txtFirstname.SelectionStart = 0
         Me.txtFirstname.ShortcutsEnabled = True
         Me.txtFirstname.Size = New System.Drawing.Size(195, 23)
-        Me.txtFirstname.TabIndex = 1
+        Me.txtFirstname.TabIndex = 0
         Me.txtFirstname.Theme = MetroFramework.MetroThemeStyle.Dark
         Me.txtFirstname.UseSelectable = True
         Me.txtFirstname.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
@@ -161,7 +161,7 @@ Partial Class Signup
         Me.txtEmail.SelectionStart = 0
         Me.txtEmail.ShortcutsEnabled = True
         Me.txtEmail.Size = New System.Drawing.Size(195, 23)
-        Me.txtEmail.TabIndex = 1
+        Me.txtEmail.TabIndex = 2
         Me.txtEmail.Theme = MetroFramework.MetroThemeStyle.Dark
         Me.txtEmail.UseSelectable = True
         Me.txtEmail.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
@@ -192,7 +192,7 @@ Partial Class Signup
         Me.txtPassword.SelectionStart = 0
         Me.txtPassword.ShortcutsEnabled = True
         Me.txtPassword.Size = New System.Drawing.Size(195, 23)
-        Me.txtPassword.TabIndex = 1
+        Me.txtPassword.TabIndex = 3
         Me.txtPassword.Theme = MetroFramework.MetroThemeStyle.Dark
         Me.txtPassword.UseSelectable = True
         Me.txtPassword.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
@@ -203,7 +203,7 @@ Partial Class Signup
         Me.btnSignup.Location = New System.Drawing.Point(374, 290)
         Me.btnSignup.Name = "btnSignup"
         Me.btnSignup.Size = New System.Drawing.Size(75, 23)
-        Me.btnSignup.TabIndex = 2
+        Me.btnSignup.TabIndex = 5
         Me.btnSignup.Text = "Signup"
         Me.btnSignup.Theme = MetroFramework.MetroThemeStyle.Dark
         Me.btnSignup.UseSelectable = True
@@ -215,7 +215,7 @@ Partial Class Signup
         Me.chkSignin.Location = New System.Drawing.Point(280, 290)
         Me.chkSignin.Name = "chkSignin"
         Me.chkSignin.Size = New System.Drawing.Size(59, 15)
-        Me.chkSignin.TabIndex = 3
+        Me.chkSignin.TabIndex = 4
         Me.chkSignin.Text = "Sign in"
         Me.chkSignin.Theme = MetroFramework.MetroThemeStyle.Dark
         Me.chkSignin.UseSelectable = True

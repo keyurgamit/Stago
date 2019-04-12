@@ -156,6 +156,8 @@ Public Class TextWindow
                     txtRetrivedText.Text = "The Text File does not contain any text"
                 End If
 
+            Else
+                MsgBox("Please Select Method to Encrypt or Decrypt.!", MsgBoxStyle.Critical, "Error")
             End If
         End If
     End Sub

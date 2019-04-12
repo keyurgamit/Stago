@@ -217,6 +217,7 @@ Partial Class TextWindow
         Me.txtRetrivedText.SelectionLength = 0
         Me.txtRetrivedText.SelectionStart = 0
         Me.txtRetrivedText.ShortcutsEnabled = True
+        Me.txtRetrivedText.ShowClearButton = True
         Me.txtRetrivedText.Size = New System.Drawing.Size(214, 240)
         Me.txtRetrivedText.TabIndex = 0
         Me.txtRetrivedText.Theme = MetroFramework.MetroThemeStyle.Dark
@@ -241,6 +242,7 @@ Partial Class TextWindow
         Me.txtPlainText.Lines = New String(-1) {}
         Me.txtPlainText.Location = New System.Drawing.Point(20, 81)
         Me.txtPlainText.MaxLength = 32767
+        Me.txtPlainText.Multiline = True
         Me.txtPlainText.Name = "txtPlainText"
         Me.txtPlainText.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtPlainText.ScrollBars = System.Windows.Forms.ScrollBars.None
@@ -248,12 +250,16 @@ Partial Class TextWindow
         Me.txtPlainText.SelectionLength = 0
         Me.txtPlainText.SelectionStart = 0
         Me.txtPlainText.ShortcutsEnabled = True
+        Me.txtPlainText.ShowClearButton = True
         Me.txtPlainText.Size = New System.Drawing.Size(214, 240)
         Me.txtPlainText.TabIndex = 0
         Me.txtPlainText.Theme = MetroFramework.MetroThemeStyle.Dark
         Me.txtPlainText.UseSelectable = True
         Me.txtPlainText.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtPlainText.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'open
+        '
         '
         'TextWindow
         '
